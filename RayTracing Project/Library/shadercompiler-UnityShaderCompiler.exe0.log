@@ -2,30 +2,19 @@ Base path: 'C:/Program Files/Unity/Hub/Editor/2019.2.6f1/Editor/Data', plugins p
 Cmd: initializeCompiler
 Cmd: preprocessCompute
   insize=421 outsize=420 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=420 outsize=461 ok=1
 Cmd: preprocessCompute
-  insize=439 outsize=438 ok=1
+  insize=218 outsize=217 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at ExampleCompute.compute(4): failed to open source file: 'noiseSimplex.cginc'
-  api=4 insize=438 outsize=0 ok=0
+  api=4 insize=217 outsize=461 ok=1
 Cmd: preprocessCompute
-  insize=439 outsize=438 ok=1
-Cmd: compileComputeKernel
-  error: 2 plat 4 at ExampleCompute.compute(15): incorrect number of arguments to numeric-type constructor
-  api=4 insize=438 outsize=0 ok=0
+  insize=421 outsize=420 ok=1
 Cmd: preprocessCompute
-  insize=439 outsize=438 ok=1
+  insize=299 outsize=298 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at ExampleCompute.compute(15): incorrect number of arguments to numeric-type constructor
-  api=4 insize=438 outsize=0 ok=0
+  error: 1 plat 4 at MulitplyCompute.compute(14): implicit truncation of vector type
+  api=4 insize=298 outsize=843 ok=1
 Cmd: preprocessCompute
-  insize=439 outsize=438 ok=1
+  insize=295 outsize=294 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=438 outsize=3569 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=2295 outsize=858 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=731 outsize=858 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=731 outsize=422 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+  error: 1 plat 4 at MulitplyCompute.compute(14): implicit truncation of vector type
+  api=4 insize=294 outsize=843 ok=1
